@@ -1,74 +1,83 @@
 # Data Science Projects Portfolio
 
-This repository contains a collection of data science and machine learning projects organized by difficulty level. It includes hands-on exercises in data cleaning, exploratory data analysis, visualization, customer segmentation, forecasting, and end-to-end model deployment.
+Successfully completed **9 Data Science projects** demonstrating practical skills in Python, data preprocessing, exploratory data analysis, visualization, business analysis, customer segmentation, time series forecasting, machine learning, and application deployment.
 
 ## Repository Structure
 
-- `Basic_level_tasks/`  
-  Beginner-level projects covering essential Python, data preprocessing, visual exploration, and simple dashboard creation.
+- `Basic_level_tasks/` — Beginner-level projects covering Python fundamentals, data preprocessing, data visualization, and dashboard creation.
+- `Intermediate_level_tasks/` — Projects focused on business analysis, customer segmentation, and time series forecasting.
+- `Advanced_level_tasks/` — Advanced machine learning workflows, model development, evaluation, and application deployment.
 
-- `Intermediate_level_tasks/`  
-  Intermediate projects focused on business analysis, clustering, and time series forecasting.
-
-- `Advanced_level_tasks/`  
-  Advanced machine learning and end-to-end data science workflows, including model training, evaluation, and a web app deployment example.
-
-## Included Topics
+## Projects and Topics
 
 ### Basic Level
 - Data cleaning and preprocessing
-- Exploratory data analysis (EDA)
+- Exploratory Data Analysis (EDA)
 - Data visualization
 - CSV-to-dashboard workflow
 
 ### Intermediate Level
 - Sales data analysis
-- Customer segmentation
+- Customer segmentation using clustering
 - Time series analysis and forecasting
 
 ### Advanced Level
 - Machine learning model development
-- End-to-end data science project pipeline
-- Model packaging and deployment-ready app structure
-- Automated testing for app behavior
+- End-to-end data science workflow
+- Model packaging and deployment-ready application structure
+- Automated application testing
 
 ## Getting Started
 
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd Data-Science-Projects-Portfolio
-   ```
+### 1. Clone the repository
 
-2. Create and activate a virtual environment:
-   ```bash
-   python -m venv .venv
-   .venv\Scripts\activate
-   ```
+```bash
+git clone https://github.com/asarali0073-rgb/Data-Science-Projects-Portfolio.git
+cd Data-Science-Projects-Portfolio
+```
 
-3. Install project dependencies as needed. For the advanced project, use:
-   ```bash
-   pip install -r Advanced_level_tasks\9-End-to-End Data Science Project-M.Usman\requirements.txt
-   ```
+### 2. Create a virtual environment
 
-4. Open the notebooks or Python scripts in each task folder to explore the project work.
+```bash
+python -m venv .venv
+```
+
+On Windows, activate it with:
+
+```bash
+.venv\Scripts\activate
+```
+
+### 3. Install dependencies
+
+For the advanced project, if its requirements file is present, run:
+
+```bash
+pip install -r "Advanced_level_tasks/9-End-to-End Data Science Project-M.Usman/requirements.txt"
+```
+
+### 4. Explore the projects
+
+Open the Jupyter notebooks (`.ipynb`) and Python scripts in the relevant task folders. Install any additional dependencies required by individual projects.
+
+## Skills Demonstrated
+
+- Python programming
+- Data cleaning and preprocessing
+- Exploratory data analysis
+- Data visualization
+- Statistical and business analysis
+- Machine learning and model evaluation
+- Customer segmentation
+- Time series forecasting
+- Application deployment and testing
 
 ## Notes
 
-- Some projects are built as Jupyter notebooks (`.ipynb`).
-- Some tasks include CSV datasets used for analysis, feature engineering, and model training.
-- The end-to-end project includes a small Flask-style app and test structure for demonstrating deployment-ready workflows.
-
-## Purpose
-
-This portfolio is intended to showcase practical data science skills, including:
-- Data wrangling
-- Statistical analysis
-- Visualization
-- Machine learning
-- Model evaluation
-- Project organization and reproducibility
+- Some projects use Jupyter notebooks.
+- CSV datasets are included where needed for analysis and model development.
+- Dataset usage and redistribution may be subject to the original dataset's license or terms.
 
 ## License
 
-This project is provided for educational and portfolio use. If you plan to reuse or distribute the code, please check the licensing terms of any included datasets or third-party libraries.
+This repository is intended for educational and portfolio purposes. Please check the licensing terms of included datasets and third-party libraries before reuse.
